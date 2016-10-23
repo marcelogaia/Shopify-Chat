@@ -1,0 +1,32 @@
+{% unless settings.home_featured_product == blank %}
+
+  {% assign product = all_products[settings.home_featured_product] %}
+
+
+  <div class="grid__item large--one-half large--display-table-cell">
+    <a href="{{ product.url }}" class="product-single__photos">
+      {% assign featured_image = product.featured_image %}
+      <img src="{{ featured_image | img_url: '1024x1024' }}" alt="{{ featured_image.alt | escape }}">
+      {% comment %}
+      <h3>{{ product.vendor }}</h3>
+      {% endcomment %}
+      <h2 class="h1">{{ product.title }}</h2>
+
+      <div class="product-single__prices">
+        {% if product.compare_at_price_max > product.price %}
+        <s id="ComparePrice" class="product-single__sale-price">
+          {{ product.compare_at_price_max | money }}
+        </s>
+        {% endif %}
+        <span id="ProductPrice" class="product-single__price" itemprop="price">
+          {{ product.price | money }}
+        </span>
+      </div>
+
+      <div class="product-description rte" itemprop="description">
+        {{ product.description | strip_html | truncatewords: 50 }}
+      </div>
+    </a>
+  </div>
+
+{% endunless %}
