@@ -10,9 +10,8 @@ android back-end development css 3 ecommerce firebase front end html 5 javascrip
 - **Android app Github Repository**: [https://github.com/robertoallende/ShopwindowChat](https://github.com/robertoallende/ShopwindowChat)
 - **Dynamic prototypes**: [http://anastasia-che.com/](http://anastasia-che.com/prototypes/x2go-wines/)[prototypes/x2go-wines/](http://anastasia-che.com/prototypes/x2go-wines/)
 
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=Y7KyzVlHMIk
-" target="_blank"><img src="http://img.youtube.com/vi/Y7KyzVlHMIk/0.jpg" 
-alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/Y7KyzVlHMIk/0.jpg)](http://www.youtube.com/watch?v=Y7KyzVlHMIk)
+
 
 For any newly opened online store validation is a hard problem to solve: without validation clients might not buy products suggested there. But what if user is in doubt of buying a product, and a guy next to him comes and purchases 5 items of the same product user is considering to buy?
 
